@@ -3,18 +3,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>Hitbox</title>
   <subtitle>Hitbox is a blog where I share my thoughts on video games and game dev.</subtitle>
-  <link href="https://example.com/feed/feed.xml" rel="self" />
-  <link href="https://example.com/" />
+  <link href="https://the-hitbox.github.io/feed/feed.xml" rel="self" />
+  <link href="https://the-hitbox.github.io/" />
   <updated>2026-02-08T00:00:00Z</updated>
-  <id>https://example.com/</id>
+  <id>https://the-hitbox.github.io/</id>
   <author>
     <name>Declan Scott</name>
   </author>
   <entry>
     <title>Game Review: Shadow Complex Remastered</title>
-    <link href="https://example.com/blog/2026/shadow_complex/" />
+    <link href="https://the-hitbox.github.io/blog/2026/shadow_complex/" />
     <updated>2026-02-08T00:00:00Z</updated>
-    <id>https://example.com/blog/2026/shadow_complex/</id>
+    <id>https://the-hitbox.github.io/blog/2026/shadow_complex/</id>
     <content type="html">&lt;p&gt;&lt;em&gt;Released in 2009 to critical acclaim, does Shadow Complex still hold up today?&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;In a gaming landscape where the &amp;quot;indie metroidvania&amp;quot; reigns supreme, &lt;em&gt;Shadow Complex&lt;/em&gt; is a title that isn&#39;t really talked about too much. I find this surprising, as the game is often credited as being the catalyst for this surge of metroidvania titles that has continued to dominate the market. &lt;em&gt;Shadow Complex&lt;/em&gt; did the whole &amp;quot;indie metroidvania&amp;quot; thing before it was cool, during a period before &lt;em&gt;Hollow Knight&lt;/em&gt; made it mainstream and the actual &lt;em&gt;Metroid&lt;/em&gt; franchise had seriously lost its way. As a result, I have a lot of respect and admiration for ChAIR Entertainment for developing a legitimate and proper metroidvania during this time. It&#39;s clear that a lot of reviewers at the time did too, as &lt;em&gt;Shadow Complex&lt;/em&gt; received high-praise upon release, but was that praise justified? Having played the game &lt;strong&gt;decades&lt;/strong&gt; after its initial release, I can&#39;t help but compare my experiences with &lt;em&gt;Shadow Complex&lt;/em&gt; to that of the more recent metroidvanias that have preceded it. When you start looking at it from that lens, the cracks in &lt;em&gt;Shadow Complex&lt;/em&gt; start to show. I want to take some time to share my thoughts on said &amp;quot;cracks&amp;quot; and give my views on &lt;em&gt;Shadow Complex&lt;/em&gt; as a whole.&lt;/p&gt;
