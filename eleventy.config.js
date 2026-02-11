@@ -78,7 +78,7 @@ export default async function(eleventyConfig) {
 			language: "en",
 			title: "Hitbox",
 			subtitle: "Hitbox is a blog where I share my thoughts on video games and game dev.",
-			base: "https://example.com/",
+			base: "https://the-hitbox.github.io/",
 			author: {
 				name: "Declan Scott"
 			}
