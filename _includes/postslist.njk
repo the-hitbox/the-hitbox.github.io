@@ -1,0 +1,17 @@
+<ul reversed class="postlist" style="--postlist-index: {{ (postslistCounter or postslist.length) + 1 }}">
+{%- for post in postslist | reverse %}
+	<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+		<object display="inline" width="100px" height="100px" overflow="none" type="image/png" data="{{ post.data.img }}"></object>
+		<div>
+			<a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a><br>
+			<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("d LLLL yyyy") }}</time>
+			<ul class="post-metadata">
+				{%- for tag in post.data.tags | filterTagList %}
+				{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+				<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
+				{%- endfor %}
+			</ul>
+		</div>
+	</li>
+{%- endfor %}
+</ul>

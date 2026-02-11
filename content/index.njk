@@ -1,0 +1,30 @@
+---js
+const eleventyNavigation = {
+	key: "Home",
+	order: 1
+};
+
+const numberOfLatestPostsToShow = 5;
+---
+{% set postsCount = collections.posts | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+<h1>Welcome to Hitbox!</h1>
+<p>Check out the latest posts below, or go to the <a href="blog.njk">the archive</a> if you're looking for something specific.</p>
+<p><em>There are {{ postsCount }} total posts on Hitbox. Look at me go!</em></p>
+<hr>
+<h1>Latest</h1>
+
+{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{% include "postslist.njk" %}
+
+<p>More can be found in <a href="blog.njk">the archive</a>.</p>
+
+{# List every content page in the project #}
+{#
+<ul>
+	{%- for entry in collections.all %}
+	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+	{%- endfor %}
+</ul>
+#}
