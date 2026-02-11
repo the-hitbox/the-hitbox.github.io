@@ -70,7 +70,7 @@ html {
 	overflow-y: scroll;
 }
 main, footer {
-	max-width: 40em;
+	max-width: 55em;
 	margin: auto;
 	background-color: var(--background-muted-alpha);
 }
