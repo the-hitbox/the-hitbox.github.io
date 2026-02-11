@@ -229,6 +229,28 @@ class HeadingAnchors extends HTMLElement {
 HeadingAnchors.register();
 
 export { HeadingAnchors }
+(function () {
+			const script = document.createElement("script");
+			script.src = "https://giscus.app/client.js";
+			script.setAttribute("data-repo", "the-hitbox/the-hitbox.github.io");
+			script.setAttribute("data-repo-id", "R_kgDORNiedA");
+			script.setAttribute("data-category", "Announcements");
+			script.setAttribute("data-category-id", "DIC_kwDORNiedM4C2L5J");
+			script.setAttribute("data-mapping", "pathname");
+			script.setAttribute("data-strict", "0");
+			script.setAttribute("data-reactions-enabled", "1");
+			script.setAttribute("data-emit-metadata", "0");
+			script.setAttribute("data-input-position", "bottom");
+			script.setAttribute("data-theme", "dark");
+			script.setAttribute("data-lang", "en");
+			script.setAttribute("crossorigin", "anonymous");
+			script.async = true;
+
+			if (document.getElementById("giscus-container") != null)
+			{
+				document.getElementById("giscus-container").appendChild(script);
+			}
+			})();
 VANTA.DOTS({
 			el: "#mesh-bg",
 			mouseControls: false,
